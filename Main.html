@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="Main.css">
+    <source src="./project.js" type="">
+</head>
+<body>
+    <header>
+        <div class="logo">Quizzify</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./regiter.html">Register</a></li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="quiz-categories">
+            <h2>Explore Quizzes</h2>
+            <ul>
+                <li>
+                    <img src="./images for project/history.jpg" alt="History">
+                    <h3>History</h3>
+                    <p>Test your knowledge of historical events and figures</p>
+                    <button onclick="location.href='./question.html'"class="outline-button">Start Quiz</button>
+                </li>
+                <li>
+                    <img src="./images for project/science.png" alt="Science">
+                    <h3>Science</h3>
+                    <p>Explore the wonders of science and technology</p>
+                    <button class="outline-button">Start Quiz</button>
+                </li>
+                <li>
+                    <img src="./images for project/sports.jfif" alt="Sports">
+                    <h3>Sports</h3>
+                    <p>Put your sports knowledge to the test</p>
+                    <button class="outline-button">Start Quiz</button>
+                </li>
+                <li>
+                    <img src="./images for project/sports.jfif" alt="Sports">
+                    <h3>Sports</h3>
+                    <p>Put your sports knowledge to the test</p>
+                    <button class="outline-button">Start Quiz</button>
+                </li>
+                
+                <!-- Add more categories here -->
+            </ul>
+        </section>
+        <section class="featured-quiz">
+            <h2>Featured Quiz</h2>
+            <img src="./images for project/bollywood.png" alt="Featured Quiz">
+            <h3>The Ultimate Movie Trivia</h3>
+            <p>Test your knowledge of movies and film history</p>
+            <!-- <button class="outline-button">Start Quiz</button> -->
+            <button ><a href="./question.html"></a>Get Question</button>
+            <div id="question-container">
+                <!-- Question will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Quizzify</p>
+    </footer>
+    <script src="./question.js"></script>
+</body>
+</html>
+
